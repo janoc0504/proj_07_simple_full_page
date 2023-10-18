@@ -21,7 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 0;
-  color: aliceblue;
 }
 
 /* nav panel */
@@ -35,7 +34,6 @@ body {
 }
 
 .nav-item {
-  ont-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.2px;
