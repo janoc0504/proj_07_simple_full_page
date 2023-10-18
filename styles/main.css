@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap');
+
+body {
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrap {
+  min-height: 100vh;
+  background-image: url(../assets/img/background_paje01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  color: aliceblue;
+}
+
+/* nav panel */
+.nav {
+  padding-top: 46px;
+  padding-bottom: 165px;
+}
+
+.nav-item:first-child {
+  color: #7C674E;
+}
+
+.nav-item {
+  ont-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  color: #B0B8D6;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+/* main content*/
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: Staatliches;
+  color: #EFEBEA;
+  font-family: Staatliches;
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: -0.65px;
+  padding-bottom: 14px;
+}
+
+main>div>p {
+  color: #B0B8D6;
+  max-width: 284px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.16px;
+  padding-bottom: 20px;
+}
+
+main>div>ul>li {
+  color: #B0B8D6;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.22px;
+  padding-bottom: 10px;
+}
+
+/* footer */
+.all-footer {
+  background-color: #172324;
+}
+
+.footer {
+  min-height: 87px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
