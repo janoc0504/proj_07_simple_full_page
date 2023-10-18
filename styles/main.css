@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Staatliches&display=swap');
 
 body {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   line-height: normal;
 }
