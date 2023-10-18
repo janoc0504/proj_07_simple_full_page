@@ -103,3 +103,11 @@ footer>div>p {
   line-height: 18px;
   letter-spacing: 0.1px;
 }
+
+.imf-footer {
+  margin-right: 24px;
+}
+
+.imf-footer:last-child {
+  margin-right: 0;
+}
