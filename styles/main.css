@@ -95,3 +95,11 @@ main>div>ul>li {
   align-items: center;
   flex-wrap: wrap;
 }
+
+footer>div>p {
+  color: #B0B8D6;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
