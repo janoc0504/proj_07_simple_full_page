@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 1130px;
+  max-width: 1000px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -50,11 +50,11 @@ body {
 }
 
 /* main content*/
-main {
+.main {
   flex-grow: 1;
 }
 
-h1 {
+.main-h1 {
   font-family: Staatliches;
   color: #EFEBEA;
   font-family: Staatliches;
@@ -64,7 +64,7 @@ h1 {
   padding-bottom: 14px;
 }
 
-main>div>p {
+.main-p {
   color: #B0B8D6;
   max-width: 284px;
   font-size: 16px;
@@ -74,7 +74,7 @@ main>div>p {
   padding-bottom: 20px;
 }
 
-main>div>ul>li {
+.main-item {
   color: #B0B8D6;
   font-size: 22px;
   font-weight: 400;
@@ -96,7 +96,7 @@ main>div>ul>li {
   flex-wrap: wrap;
 }
 
-footer>div>p {
+.footer-p {
   color: #B0B8D6;
   font-size: 12px;
   font-weight: 700;
